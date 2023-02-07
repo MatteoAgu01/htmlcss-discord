@@ -270,18 +270,76 @@ nav a:hover{
 .bg{
      background-image: url(../img/jumbo.png);
      height: 100vh;
+     color: white;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     align-items: center;
 }
 
 .form{
-     display: flex;
-     justify-content: center;
-     align-content: center;
+     width: 40%;
+     height: 50%;
+     background-color: #23272a;
+     border-radius: 10px;
+     padding: 3%;
+     margin: 0;
+}
+input{
+     background-color: #343536;
 }
 
-.flax-d{
-     background-color: #23272a;
-     width: 40%;
-     height: 20%;
+h2{
+     font-size: 2rem;
      margin: 0;
+}
+
+.flex-d{
+     display: flex;
+}
+
+.flex-d div{
+     padding: 1%;
+     width: 50%;
+     margin: 0;
+}
+
+.item-left,
+.item-rigth{
+     padding: %;
+     /* text-align: center; */
+}
+
+.item-left{
+     width: 30vw;
+     margin: 0;
+}
+
+.item-rigth{
+     width: 8vw;
+     margin: 0;
+     font-size: 0.9rem;
+     text-align: center;
+}
+
+#email{
+     height: 2vw;
+     width: 20vw;
+     border-radius: 5px;
+}
+
+#psw{
+     height: 2vw;
+     width: 20vw;
+     border-radius: 5px;
+}
+button{
+     height: 2vw;
+     width: 20vw;
+     background-color: #5462ea;
+     color: var(--item-bg);
+     border: 0px;
+     border-radius: 5px;
+
 }
 /* //log-in section */
