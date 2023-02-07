@@ -17,7 +17,10 @@
 }
 
 /* general */
-header {
+.container-bg{
+     height: 100vh;
+}
+header, .container-bg {
      background-image: url(../img/jumbo.png);
      background-size: cover;
      background-position: center;
@@ -262,3 +265,23 @@ nav a:hover{
      color: var(--mac-down-bg);
 }
 /* sezione hover */
+
+/* log-in section */
+.bg{
+     background-image: url(../img/jumbo.png);
+     height: 100vh;
+}
+
+.form{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+}
+
+.flax-d{
+     background-color: #23272a;
+     width: 40%;
+     height: 20%;
+     margin: 0;
+}
+/* //log-in section */
